@@ -1,1 +1,0 @@
-# akvimal.github.io
