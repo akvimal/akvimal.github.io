@@ -1,0 +1,31 @@
+Ebony Moore
+Seattle WA • (123) 456-7891
+emoore@email.com
+
+SUMMARY
+Software Developer with 15 years of experience in coding, reviewing program functionality, establishing system improvements and testing for security precautions. Equally adept at developing software for desktop computers, cloud integrations, and mobile devices.
+
+EDUCATION
+Longford Tech
+May '00 - Nov '05
+Computer Science/Business
+
+EXPERIENCE
+Retail Ocean, Software Developer
+Dec '13 - Current
+Monitored over 200 different websites for functionality and security
+Spearheaded and sustained the marketing drive to secure 20 new client contracts
+Worked with team of 25 developers to upgrade security coding for 100 different websites
+Crane & Jenkins, Software Developer
+Current - Current
+Wrote software for 100 different clients
+Monitored stability of software for over 200 different clients
+Attended regular conventions for updates to coding and security
+River Tech, Software Developer
+Current - Current
+Worked with team of 50 different developers in innovative upgrade of C language software
+Analyzed networking systems and improved functionality by 10 points
+Maintained systems for 25 different clients using C++ and Linux platforms
+SKILLS
+JQuery: 4.5/5
+GIT: 4/5
