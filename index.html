@@ -21,8 +21,17 @@
 				}
 			}
 		</style>
+		<script>
+			function measure(){
+				const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+				const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+				document.getElementById('width').innerHTML = vw;
+				document.getElementById('height').innerHTML = vh;
+			}
+		</script>
 	</head>
-	<body>
+	<body onresize="measure()" onload="measure()">
+		<span id="width"></span> X <span id="height"></span><br/>
 		<div id="container">
 			<!-- Information here will be visible inside browser window -->
 			<div id="header" class="section">
