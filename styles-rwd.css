@@ -1,72 +1,21 @@
-body {
-    font-size: 100%;
-}
-
-p {
-    margin-bottom:0
-}
-
-#container{
-    padding:20px;
-    font-family: Arial, sans-serif;
-}
-#header {
-    overflow:auto;
-}
 #thumbnail {
-    float:left;
+    float:none;
 }
 #info-card {
-    padding-left:136px
-}
-#name {
-    margin:0; 
-    padding:10px;
+    padding: 0;
+    float: none;
 }
 #contact-info {
-    padding-left:10px;
-    margin:0;
-    list-style: square;
-}
-#contact-info li:first-child {
-    list-style-type: none;
-    margin:0;
-}
-#contact-info li {
-    float: left;
-    margin-left: 25px;
-}
-.section {
-    clear:both;
-    overflow:auto;
-    margin:0;
-    padding:0;
-}
-.experience {
-    margin-top: 20px;
-}
-.experience:hover {
-    background-color: #ddd;
-}
-
-.experience .head {
-    overflow: auto;
-    font-weight: bold;
-}
-
-.experience .role{
-    float: left;
-}
-
-.eduction .institute {
-    float: left;
-}
-
-.experience .period{
-    float: right;
-}
-
-#skills {
     list-style: none;
     padding: 0;
+}
+#contact-info li {
+    float: none;
+    margin-left: 0;
+}
+.experience .role {
+    float: none;
+}
+.experience .period {
+    float: none;
 }

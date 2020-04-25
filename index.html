@@ -2,36 +2,21 @@
 <html>
 	<head>
 		<title>Ebony Moore's Resume</title> <!-- This will be browser window title -->
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-		<!-- <link rel="stylesheet" href="styles-rwd.css"> -->
-		<style>
-			body {
-				background-color: lightgreen;
-			}
-			#thumbnail {
-				float:left
-			}
-
-			@media only screen and (max-width: 300px) {
-				body {
-					background-color: lightblue;
-				}
-				#thumbnail {
-					float:none;
-				}
-			}
-		</style>
-		<script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" media="screen and (max-width: 580px)" href="styles-rwd.css">
+		<!-- <script>
 			function measure(){
 				const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 				const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 				document.getElementById('width').innerHTML = vw;
 				document.getElementById('height').innerHTML = vh;
 			}
-		</script>
+		</script> -->
 	</head>
-	<body onresize="measure()" onload="measure()">
-		<span id="width"></span> X <span id="height"></span><br/>
+	<!-- <body onresize="measure()" onload="measure()"> -->
+	<body>
+		<!-- <span id="width"></span> X <span id="height"></span><br/> -->
 		<div id="container">
 			<!-- Information here will be visible inside browser window -->
 			<div id="header" class="section">
@@ -53,7 +38,7 @@
 					testing for security precautions. Equally adept at developing software for 
 					desktop computers, cloud integrations, and mobile devices.</p>
 			</div>			
-			<!-- <div class="section">
+			<div class="section">
 				<h3>EXPERIENCE</h3>
 				<div class="experience">
 					<div class="head">
@@ -104,7 +89,7 @@
 					<li>JQuery</li>
 					<li>GIT</li>
 				</ul>
-			</div> -->
+			</div>
 		</div>
 	</body>
 </html>
