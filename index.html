@@ -3,7 +3,24 @@
 	<head>
 		<title>Ebony Moore's Resume</title> <!-- This will be browser window title -->
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-		<link rel="stylesheet" href="styles-rwd.css">
+		<!-- <link rel="stylesheet" href="styles-rwd.css"> -->
+		<style>
+			body {
+				background-color: lightgreen;
+			}
+			#thumbnail {
+				float:left
+			}
+
+			@media only screen and (max-width: 420px) {
+				body {
+					background-color: lightblue;
+				}
+				#thumbnail {
+					float:none;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<div id="container">
@@ -27,7 +44,7 @@
 					testing for security precautions. Equally adept at developing software for 
 					desktop computers, cloud integrations, and mobile devices.</p>
 			</div>			
-			<div class="section">
+			<!-- <div class="section">
 				<h3>EXPERIENCE</h3>
 				<div class="experience">
 					<div class="head">
@@ -78,7 +95,7 @@
 					<li>JQuery</li>
 					<li>GIT</li>
 				</ul>
-			</div>
+			</div> -->
 		</div>
 	</body>
 </html>
