@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ebony Moore</title> <!-- This will be browser window title -->
-		<style>
-			li:first-child {
-				list-style-type: none;
-				margin:0;
-			}
-			li {
-				float: left;
-				margin-left: 25px;
-			}
-		</style>
+		<title>Ebony Moore's Resume</title> <!-- This will be browser window title -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<link rel="stylesheet" href="styles-rwd.css">
 	</head>
 	<body>
-		<div style="padding:20px;font-family: Arial, sans-serif;">
-		<!-- Information here will be visible inside browser window -->
-		<div style="overflow:auto">
-			<img style="height:120px;float:left;" src="girl-avatar.png">
-			<div style="padding-left:136px">
-				<h1 style="margin:0; padding:10px;">Ebony Moore</h1>
-				<ul style="padding-left:10px;margin:0;list-style: square;">
-					<li>Seattle WA</li>
-					<li>(123) 456-7891</li>
-					<li>emoore@email.com</li>
+		<div id="container">
+			<!-- Information here will be visible inside browser window -->
+			<div id="header" class="section">
+				<img id="thumbnail" src="girl-avatar.png">
+				<div id="info-card">
+					<h1 id="name">Ebony Moore</h1>
+					<ul id="contact-info">
+						<li>Seattle WA</li>
+						<li>(123) 456-7891</li>
+						<li>emoore@email.com</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div id="summary" class="section">
+				<h3>SUMMARY</h3>
+				<p>Software Developer with <b>15 years</b> of experience in coding, 
+					reviewing program functionality, establishing system improvements and 
+					testing for security precautions. Equally adept at developing software for 
+					desktop computers, cloud integrations, and mobile devices.</p>
+			</div>			
+			<div class="section">
+				<h3>EXPERIENCE</h3>
+				<div class="experience">
+					<div class="head">
+						<div class="role">Retail Ocean, Software Developer</div>
+						<div class="period">Dec '13 - Current</div>
+					</div>
+					<p>
+						Monitored over 200 different websites for functionality and security
+						Spearheaded and sustained the marketing drive to secure 20 new client contracts
+						Worked with team of 25 developers to upgrade security coding for 100 different websites
+					</p>
+				</div>
+				<div class="experience">
+					<div class="head">
+						<div class="role">Crane & Jenkins, Software Developer</div>
+						<div class="period">May '09 - Nov '13</div>
+					</div>
+					<p>
+						Wrote software for 100 different clients
+						Monitored stability of software for over 200 different clients
+						Attended regular conventions for updates to coding and security
+					</p>
+				</div>
+				<div class="experience">
+					<div class="head">
+						<div class="role">River Tech, Software Developer</div>
+						<div class="period">Jan '06 - Mar '09</div>
+					</div>
+					<p>
+						Worked with team of 50 different developers in innovative upgrade of C language software
+						Analyzed networking systems and improved functionality by 10 points
+						Maintained systems for 25 different clients using C++ and Linux platforms
+					</p>
+				</div>
+			</div>
+			<div id="education" class="section">
+				<h3>EDUCATION</h3>
+				<div>
+					<div class="institute">Longford Tech<br/>
+						Computer Science/Business
+					</div>
+					<div class="period">May '00 - Nov '05</div>
+				</div>
+			</div>
+			<div class="section">
+				<h3>SKILLS</h3>
+				<ul id="skills">
+					<li>JQuery</li>
+					<li>GIT</li>
 				</ul>
 			</div>
-		</div>
-		<div style="clear:both">
-			<h3>SUMMARY</h3>
-			<p>Software Developer with <b>15 years</b> of experience in coding, reviewing program functionality, establishing system improvements and <i>testing for security precautions</i>. Equally adept at developing software for desktop computers, cloud integrations, and mobile devices.</p>
-		</div>
 		</div>
 	</body>
 </html>
